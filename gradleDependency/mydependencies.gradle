@@ -1,0 +1,12 @@
+ext {
+
+    //version
+    supportLibrary = '25.0.0'
+    //libraries dependencies
+    supportDependencies = [
+            appCompat : "com.android.support:appcompat-v7:${supportLibrary}",
+            design : "com.android.support:design:${supportLibrary}",
+    ]
+
+
+}
